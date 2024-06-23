@@ -1,93 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cv>
-    <personalInfo>
-        <name>Massinissa BOUCHA</name>
-        <title>Apprenti Ingénieur en Cyber Sécurité</title>
-        <contact>
-            <address>12 place de l’argonne, 75019 Paris</address>
-            <email>massiboucha@gmail.com</email>
-            <phone>07 67 63 99 98</phone>
-        </contact>
-        <objective>A la recherche d'un contrat d'apprentissage de 24 mois, Rythme : un mois sur deux en entreprise, dès septembre 2023</objective>
-        <drivingLicense>Permis B et véhiculé</drivingLicense>
-    </personalInfo>
-    
-    <education>
-        <school>
-            <degree>Ecole d'ingénieur en spécialité informatique</degree>
-            <years>2022-2025</years>
-            <institution>Sup Galilée (Villetaneuse)</institution>
-        </school>
-        <school>
-            <degree>Baccalauréat scientifique</degree>
-            <years>2019</years>
-            <institution>Lycée Arago (Paris)</institution>
-        </school>
-    </education>
-
-    <experience>
-        <job>
-            <title>Missions d'intérim</title>
-            <years>Depuis 2021</years>
-            <details>
-                <task>Aide à la personne</task>
-                <task>Cours particuliers scientifiques à des collégiens et lycéens</task>
-                <task>Hôte d'accueil lors de défilés, galas, dîners</task>
-                <task>Animation de stands</task>
-                <task>Manutention en tout genre</task>
-                <task>Assistant plombier/électricien</task>
-                <task>Vendeur boutique de vêtements</task>
-            </details>
-        </job>
-    </experience>
-
-    <skills>
-        <softSkills>
-            <skill>Communication</skill>
-            <skill>Adaptation</skill>
-            <skill>Curiosité</skill>
-            <skill>Gestion du stress</skill>
-        </softSkills>
-        <technicalSkills>
-            <skill>Programmation et assemblage d'un segway</skill>
-            <skill>Programmation du jeu snake en langage C</skill>
-            <skill>Mastermind programmé en GTK</skill>
-            <skill>Programmation d'une application d'itinéraire de métro optimale en langage C</skill>
-            <skill>Codage de sites internet en HTML/CSS</skill>
-            <skill>Codage de sites Web en python</skill>
-        </technicalSkills>
-    </skills>
-
-    <languages>
-        <language>
-            <name>Anglais</name>
-            <level>courant (C1)</level>
-        </language>
-        <language>
-            <name>Allemand</name>
-            <level>débutant (A2)</level>
-        </language>
-        <language>
-            <name>Kabyle</name>
-            <level>bilingue (langue maternelle)</level>
-        </language>
-    </languages>
-
-    <programmingLanguages>
-        <language>python</language>
-        <language>C#</language>
-        <language>PHP</language>
-        <language>Notions: C</language>
-        <language>HTML/CSS</language>
-        <language>Java</language>
-        <language>MIPS</language>
-        <language>R</language>
-        <language>Matlab</language>
-    </programmingLanguages>
-
-    <interests>
-        <interest>Sport : basketball, volleyball et natation</interest>
-        <interest>Mode</interest>
-        <interest>Cultures étrangères</interest>
-    </interests>
+    <personnel>
+        <nom>Wilhan Benrejdal</nom>
+        <telephone>07 83 99 68 74</telephone>
+        <email>w.benrejdal@gmail.com</email>
+        <age>21 years old</age>
+        <adresse>Aulnay-Sous-Bois (93600), France</adresse>
+        <permis>Driver's License B</permis>
+    </personnel>
+    <objectif>
+        <titre>DevOps Engineer in apprenticeship</titre>
+        <contrat>Apprenticeship contract</contrat>
+        <rythme>Desired rhythm</rythme>
+        <disponibilite>Immediate availability</disponibilite>
+    </objectif>
+    <competences>
+        <hard>Hard skills description</hard>
+        <langues>French, English</langues>
+        <soft>Soft skills description</soft>
+    </competences>
+    <linkedin>
+        <url>https://www.linkedin.com/in/wilhan-benrejdal-5529401a9/</url>
+    </linkedin>
+    <centres_interet>
+        <interet>Sports, Music</interet>
+    </centres_interet>
 </cv>

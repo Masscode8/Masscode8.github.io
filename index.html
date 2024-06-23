@@ -4,6 +4,37 @@
     <meta charset="UTF-8" />
     <title>Portfolio de Massinissa Boucha</title>
     <link rel="stylesheet" href="styles.css" />
+    <style>
+      /* Ajouter du CSS pour les images des drapeaux */
+      .lang-buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px; /* Espacement sous les boutons */
+      }
+
+      .lang-buttons button {
+        margin-right: 10px; /* Espacement entre les boutons */
+      }
+
+      .flag-img {
+        width: 30px; /* Ajuster la taille des images si nécessaire */
+        height: auto;
+        margin-left: 5px; /* Espacement entre le bouton et l'image */
+      }
+
+      .social-links {
+        margin-top: 20px;
+        text-align: center;
+      }
+
+      .social-links img {
+        width: 30px;
+        height: auto;
+        margin: 0 10px;
+        cursor: pointer;
+      }
+    </style>
     <script>
       function changeLanguage(lang) {
         var messages = {
@@ -64,21 +95,20 @@
       <h1>Portfolio de Massinissa Boucha</h1>
 
       <div class="lang-buttons">
-        <button id="btn-fr" onclick="changeLanguage('fr')">
-          <img src="flag_fr.png" alt="Français" class="flag-img" /> Français
-        </button>
-        <button id="btn-en" onclick="changeLanguage('en')">
-          <img src="flag_us.png" alt="English" class="flag-img" /> English
-        </button>
-        <button id="btn-ru" onclick="changeLanguage('ru')">
-          <img src="flag_ru.png" alt="Русский" class="flag-img" /> Русский
-        </button>
+        <button id="btn-fr" onclick="changeLanguage('fr')">Français</button>
+        <button id="btn-en" onclick="changeLanguage('en')">English</button>
+        <button id="btn-ru" onclick="changeLanguage('ru')">Русский</button>
+      </div>
+      <div class="lang-buttons">
+        <img src="flag_fr.png" alt="Français" class="flag-img" />
+        <img src="flag_us.png" alt="English" class="flag-img" />
+        <img src="flag_ru.png" alt="Русский" class="flag-img" />
       </div>
 
       <div class="message" id="welcome-message">
         Bienvenue sur mon portfolio! Cliquez pour voir mon CV!
       </div>
-      <button id="btn-cv" onclick="openCV('fr')">Voir mon CV</button>
+      <button id="btn-cv" onclick="openCV()">Voir mon CV</button>
 
       <!-- Bouton "Voir mon CV" qui ouvre le CV dans une nouvelle page -->
       <iframe
@@ -90,6 +120,19 @@
         style="display: none"
         type="application/xml"
       ></iframe>
+
+      <!-- Liens vers GitHub et LinkedIn -->
+      <div class="social-links">
+        <a href="https://github.com/Masscode8" target="_blank">
+          <img src="github-logo.png" alt="GitHub" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/massinissa-boucha-208975236/"
+          target="_blank"
+        >
+          <img src="linkedin-logo.png" alt="LinkedIn" />
+        </a>
+      </div>
     </div>
 
     <div class="video-container">

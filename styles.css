@@ -44,3 +44,8 @@ body {
   margin-right: 5px; /* Marge à droite pour l'espace entre l'image et le texte */
 }
 
+iframe {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
