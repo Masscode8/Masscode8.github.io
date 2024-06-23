@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cv>
+    <personalInfo>
+        <name>Massinissa BOUCHA</name>
+        <title>Apprentice Engineer in Cyber Security</title>
+        <contact>
+            <address>12 place de l’argonne, 75019 Paris</address>
+            <email>massiboucha@gmail.com</email>
+            <phone>07 67 63 99 98</phone>
+        </contact>
+        <objective>Seeking a 24-month apprenticeship contract, alternating every other month between work and study, starting September 2023</objective>
+        <drivingLicense>Driving license (Category B) and own vehicle</drivingLicense>
+    </personalInfo>
+    
+    <education>
+        <school>
+            <degree>Engineering School in Computer Science</degree>
+            <years>2022-2025</years>
+            <institution>Sup Galilée (Villetaneuse)</institution>
+        </school>
+        <school>
+            <degree>High School Diploma in Science</degree>
+            <years>2019</years>
+            <institution>Lycée Arago (Paris)</institution>
+        </school>
+    </education>
+
+    <experience>
+        <job>
+            <title>Temporary Assignments</title>
+            <years>Since 2021</years>
+            <details>
+                <task>Assistance to individuals</task>
+                <task>Private tutoring in science for middle and high school students</task>
+                <task>Host at fashion shows, galas, dinners</task>
+                <task>Booth animation</task>
+                <task>General labor tasks</task>
+                <task>Assistant to plumbers/electricians</task>
+                <task>Salesperson at a clothing boutique</task>
+            </details>
+        </job>
+    </experience>
+
+    <skills>
+        <softSkills>
+            <skill>Communication</skill>
+            <skill>Adaptability</skill>
+            <skill>Curiosity</skill>
+            <skill>Stress Management</skill>
+        </softSkills>
+        <technicalSkills>
+            <skill>Building and programming a segway</skill>
+            <skill>Snake game programming in C</skill>
+            <skill>Mastermind programmed in GTK</skill>
+            <skill>Programming an optimal metro route application in C</skill>
+            <skill>Coding websites in HTML/CSS</skill>
+            <skill>Web development in Python</skill>
+        </technicalSkills>
+    </skills>
+
+    <languages>
+        <language>
+            <name>English</name>
+            <level>Fluent (C1)</level>
+        </language>
+        <language>
+            <name>German</name>
+            <level>Beginner (A2)</level>
+        </language>
+        <language>
+            <name>Kabyle</name>
+            <level>Bilingual (native)</level>
+        </language>
+    </languages>
+
+    <programmingLanguages>
+        <language>Python</language>
+        <language>C#</language>
+        <language>PHP</language>
+        <language>Basic knowledge: C</language>
+        <language>HTML/CSS</language>
+        <language>Java</language>
+        <language>MIPS</language>
+        <language>R</language>
+        <language>Matlab</language>
+    </programmingLanguages>
+
+    <interests>
+        <interest>Sports: basketball, volleyball, swimming</interest>
+        <interest>Fashion</interest>
+        <interest>Foreign Cultures</interest>
+    </interests>
+</cv>

@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  background-color: #f0f8ff;
+}
+
+.container {
+  border: 2px solid #333;
+  padding: 20px;
+  display: inline-block;
+  background-color: #fff;
+}
+
+.lang-buttons {
+  margin: 20px;
+}
+
+.lang-buttons button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  background-color: #008cba;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.lang-buttons button:hover {
+  background-color: #005f5f;
+}
+
+.message {
+  margin-top: 50px;
+  font-size: 24px;
+  color: #333;
+}
+
+.flag-img {
+  width: 20px; /* Largeur souhaitée */
+  height: auto; /* Hauteur automatique pour conserver les proportions */
+  vertical-align: middle; /* Alignement vertical pour l'icône */
+  margin-right: 5px; /* Marge à droite pour l'espace entre l'image et le texte */
+}
+

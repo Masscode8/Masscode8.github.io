@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Portfolio de Massinissa Boucha</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script>
+      function changeLanguage(lang) {
+        var messages = {
+          fr: "Bienvenue sur mon portfolio! Cliquez pour voir mon CV!",
+          en: "Welcome to my portfolio! Click to see my resume!",
+          ru: "Добро пожаловать в мое портфолио! Нажмите, чтобы увидеть мое резюме!",
+        };
+        var languages = {
+          fr: ["Français", "Anglais", "Russe"],
+          en: ["French", "English", "Russian"],
+          ru: ["Французский", "Английский", "Русский"],
+        };
+        var titles = {
+          fr: "Portfolio de Massinissa Boucha",
+          en: "Massinissa Boucha's Portfolio",
+          ru: "Портфолио Массинисса Буша",
+        };
+        document.getElementById("welcome-message").innerText = messages[lang];
+        document.getElementById("btn-fr").innerText = languages[lang][0];
+        document.getElementById("btn-en").innerText = languages[lang][1];
+        document.getElementById("btn-ru").innerText = languages[lang][2];
+        document.title = titles[lang];
+        var cvButtons = {
+          fr: "Voir mon CV",
+          en: "View my Resume",
+          ru: "Показать мое резюме",
+        };
+        document.getElementById("btn-cv").innerText = cvButtons[lang];
+        // Charger le CV dans l'iframe
+        var cvFiles = {
+          fr: "cv_fr.xml",
+          en: "cv_en.xml",
+          ru: "cv_ru.xml",
+        };
+        var cvUrl = cvFiles[lang];
+        document.getElementById("cv-iframe").src = cvUrl;
+      }
+
+      function openCV() {
+        var lang =
+          document.getElementById("btn-fr").innerText === "Français"
+            ? "fr"
+            : document.getElementById("btn-en").innerText === "English"
+            ? "en"
+            : "ru";
+        var cvFiles = {
+          fr: "cv_fr.xml",
+          en: "cv_en.xml",
+          ru: "cv_ru.xml",
+        };
+        var cvUrl = cvFiles[lang];
+        window.open(cvUrl, "_blank");
+      }
+    </script>
+  </head>
+  <body onload="changeLanguage('fr')">
+    <div class="container">
+      <h1>Portfolio de Massinissa Boucha</h1>
+
+      <div class="lang-buttons">
+        <button id="btn-fr" onclick="changeLanguage('fr')">
+          <img src="flag_fr.png" alt="Français" class="flag-img" /> Français
+        </button>
+        <button id="btn-en" onclick="changeLanguage('en')">
+          <img src="flag_us.png" alt="English" class="flag-img" /> English
+        </button>
+        <button id="btn-ru" onclick="changeLanguage('ru')">
+          <img src="flag_ru.png" alt="Русский" class="flag-img" /> Русский
+        </button>
+      </div>
+
+      <div class="message" id="welcome-message">
+        Bienvenue sur mon portfolio! Cliquez pour voir mon CV!
+      </div>
+      <button id="btn-cv" onclick="openCV('fr')">Voir mon CV</button>
+
+      <!-- Bouton "Voir mon CV" qui ouvre le CV dans une nouvelle page -->
+      <iframe
+        id="cv-iframe"
+        src=""
+        width="100%"
+        height="600px"
+        frameborder="0"
+        style="display: none"
+        type="application/xml"
+      ></iframe>
+    </div>
+
+    <div class="video-container">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/PWirijQkH4M"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    </div>
+  </body>
+</html>

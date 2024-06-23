@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cv>
+    <personalInfo>
+        <name>Массинисса БУША</name>
+        <title>Стажер-инженер по кибербезопасности</title>
+        <contact>
+            <address>12 площадь Аргонн, 75019 Париж</address>
+            <email>massiboucha@gmail.com</email>
+            <phone>07 67 63 99 98</phone>
+        </contact>
+        <objective>Ищу контракт на обучение в течение 24 месяцев, с сентября 2023 года, с чередованием работы и учебы каждый второй месяц</objective>
+        <drivingLicense>Водительские права категории B и личное авто</drivingLicense>
+    </personalInfo>
+    
+    <education>
+        <school>
+            <degree>Инженерная школа по специальности информатика</degree>
+            <years>2022-2025</years>
+            <institution>Sup Galilée (Виллетанез)</institution>
+        </school>
+        <school>
+            <degree>Аттестат о среднем образовании в области науки</degree>
+            <years>2019</years>
+            <institution>Лицей Араго (Париж)</institution>
+        </school>
+    </education>
+
+    <experience>
+        <job>
+            <title>Временные задания</title>
+            <years>С 2021 года</years>
+            <details>
+                <task>Помощь частным лицам</task>
+                <task>Частные уроки по наукам для учащихся средних и старших классов</task>
+                <task>Хост на модных показах, гала-ужинах</task>
+                <task>Анимация стендов</task>
+                <task>Различные работы</task>
+                <task>Помощник сантехника/электрика</task>
+                <task>Продавец в магазине одежды</task>
+            </details>
+        </job>
+    </experience>
+
+    <skills>
+        <softSkills>
+            <skill>Коммуникация</skill>
+            <skill>Адаптация</skill>
+            <skill>Любопытство</skill>
+            <skill>Управление стрессом</skill>
+        </softSkills>
+        <technicalSkills>
+            <skill>Построение и программирование сегвея</skill>
+            <skill>Программирование игры "Змейка" на языке C</skill>
+            <skill>Игра "Mastermind" на GTK</skill>
+            <skill>Программирование приложения для оптимального маршрута метро на языке C</skill>
+            <skill>Веб-разработка на HTML/CSS</skill>
+            <skill>Разработка веб-приложений на Python</skill>
+        </technicalSkills>
+    </skills>
+
+    <languages>
+        <language>
+            <name>Английский</name>
+            <level>Свободно (C1)</level>
+        </language>
+        <language>
+            <name>Немецкий</name>
+            <level>Начинающий (A2)</level>
+        </language>
+        <language>
+            <name>Кабильский</name>
+            <level>Двуязычный (родной)</level>
+        </language>
+    </languages>
+
+    <programmingLanguages>
+        <language>Python</language>
+        <language>C#</language>
+        <language>PHP</language>
+        <language>Основы: C</language>
+        <language>HTML/CSS</language>
+        <language>Java</language>
+        <language>MIPS</language>
+        <language>R</language>
+        <language>Matlab</language>
+    </programmingLanguages>
+
+    <interests>
+        <interest>Спорт: баскетбол, волейбол, плавание</interest>
+        <interest>Мода</interest>
+        <interest>Иностранные культуры</interest>
+    </interests>
+</cv>
